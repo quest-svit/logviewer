@@ -1,0 +1,6 @@
+Welcome to LogView By Tanmay
+
+This is default Log file
+
+Format to use:
+http://localhost:8083/viewLog?filePath=<path to your Log File>
