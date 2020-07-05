@@ -26,8 +26,6 @@ import java.io.StringWriter;
 @RestController
 public class LogViewController {
 	
-	
-	
 	@RequestMapping(method = RequestMethod.GET, value="/viewLog")
 	@ResponseBody
 	public StringBuffer  viewLog(@RequestParam int lines,@RequestParam String filePath,@RequestParam  String direction) {
